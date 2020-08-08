@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  */
 @Primary
 @Service
-public class PrimaryGeetingService implements GreetingService {
+public class PrimaryGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
